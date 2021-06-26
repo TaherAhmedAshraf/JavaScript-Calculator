@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content= "width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div id="Cal">
+            <h4>Let's Calculate</h4>
+            <form name="forms">
+                <input id='input' type="text" name="answer"><br>
+                <input class="single-box" type="button" value="1" onclick="forms.answer.value += '1'"">
+                <input class="single-box" type="button" value="2" onclick="forms.answer.value += '2'">
+                <input class="single-box" type="button" value="3" onclick="forms.answer.value += '3'">
+                <input class="single-box" type="button" value="+" onclick="forms.answer.value += '+'"><br>
+
+                <input class="single-box" type="button" value="4" onclick="forms.answer.value += '4'">
+                <input class="single-box" type="button" value="5" onclick="forms.answer.value += '5'">
+                <input class="single-box" type="button" value="6" onclick="forms.answer.value += '6'">
+                <input class="single-box" type="button" value="-" onclick="forms.answer.value += '-'"><br>
+
+                <input class="single-box" type="button" value="7" onclick="forms.answer.value += '7'">
+                <input class="single-box" type="button" value="8" onclick="forms.answer.value += '8'">
+                <input class="single-box" type="button" value="9" onclick="forms.answer.value += '9'">
+                <input class="single-box" type="button" value="x" onclick="forms.answer.value += '*'"><br>
+
+                <input class="single-box" type="button" value="C" onclick="forms.answer.value = ' '">
+                <input class="single-box" type="button" value="0" onclick="forms.answer.value += '0'">
+                <input class="single-box" type="button" value="÷" onclick="forms.answer.value += '/'">
+                <input class="single-box" type="button" value="=" onclick="calJS()" >
+            </form>
+            <p>developed by ashraf</p>
+        </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>

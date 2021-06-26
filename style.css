@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: royalblue;
+    background-color: #1C2E4A;
+}
+
+
+#Cal{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    border: 0px solid;
+    padding: 100px;
+    background: rgb(54, 99, 235);
+    background: #23395D;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+#Cal h4{
+    font-size: 24px;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+#Cal p{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    bottom: 0;
+    font-family: 'Goldman', cursive;
+    resize: both;
+}
+
+.single-box{
+    width: 50px;
+    height: 40px;
+    margin: 5px 5px;
+    border: 1px solid #707374; 
+    font-size: 28px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    column-count: 4;
+    overflow: hidden;
+}
+
+.single-box:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+}
+
+#input{
+    border: 1px solid #707374;
+    width: 250px;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#input:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+}
